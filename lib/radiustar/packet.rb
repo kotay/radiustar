@@ -265,7 +265,7 @@ module Radiustar
       end
 
       def inspect
-        @value
+        @value.to_s
       end
 
       def to_s
